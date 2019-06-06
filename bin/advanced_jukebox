@@ -5,12 +5,21 @@ require_relative "../lib/advanced_jukebox"
 #as part of my troubleshooting, i've used two different paths -- seen in Go Go Go and LiberTeens 
 my_songs = {
 "Go Go GO" => '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/01.mp3',
+<<<<<<< HEAD
 "LiberTeens" => '/Users/jeremiah/.atom/.learn-ide/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/02.mp3',
 "Hamburg" =>  '/Users/jeremiah/.atom/.learn-ide/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/03.mp3',
 "Guiding Light" => '/Users/jeremiah/.atom/.learn-ide/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/04.mp3',
 "Wolf" => '/Users/jeremiah/.atom/.learn-ide/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/05.mp3',
 "Blue" => '/Users/jeremiah/.atom/.learn-ide/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/06.mp3',
 "Graduation Failed" => '/Users/jeremiah/.atom/.learn-ide/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/07.mp3'
+=======
+"LiberTeens" => '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/04.mp3',
+"Wolf" => '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/05.mp3',
+"Blue" => '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/home/communal-tutorial-3267/jukebox-cli-online-web-prework/audio/Emerald-Park/07.mp3'
+>>>>>>> f9335c496c25508c1b6e88e10dbfbb21742e3aef
 }
 
 run(my_songs)
